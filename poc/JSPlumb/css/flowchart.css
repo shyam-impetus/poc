@@ -1,0 +1,64 @@
+.start{
+    border-radius: 40px;
+    text-align: center;
+}
+
+.step{
+    border-radius: 0.5em;
+    width: 80px;
+    height: 80px;
+}
+.window.jsplumb-connected-step {
+    border: 2px solid #29e;
+}
+
+.diamond{
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+ 
+.desc-text{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.window.jsplumb-connected-end {
+    border: 2px solid orangered;
+}
+
+
+/** separation -- ssp**/
+#myPalette .start {
+    top: 10px;
+}
+
+#myPalette .step {
+    top: 100px;
+}
+
+#myPalette .diamond.jsplumb-connected-step {
+    top: 200px;
+}
+
+#myPalette .start.jsplumb-connected-end {
+    top: 300px;
+}
+
+#myPalette .start, #myPalette .step, #myPalette .diamond.jsplumb-connected-step {
+    left: 20px;
+}
+/** separation -- ssp**/
+
+.custom{
+    position: absolute;
+}
+ 
+#canvas{
+    z-index: 1;
+}
