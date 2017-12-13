@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Card-3",
+        "srcImg": "src/app/images/img_3.jpg"
+    },
+    {
+        "label": "Card-4",
+        "srcImg": "src/app/images/img_4.jpg"
+    }
+]

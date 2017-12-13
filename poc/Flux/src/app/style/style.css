@@ -1,0 +1,83 @@
+.header {
+	background-color: #1274B8;
+	display: flex;
+	margin-bottom: 10px;
+    padding:15px;
+}
+
+.title{
+    float: left;
+    width: 50%;
+    font-size: 26px;
+    color: white;
+}
+
+.view{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    display: inline-block;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.cardSection {
+    list-style: none;
+    padding: 0px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-description {
+    padding: 2px 16px;
+}
+
+.card-description p {
+    margin: 0;
+}
+
+.card-image-container {
+    width: 190px;
+    height: 175px;
+    margin: auto;
+}
+
+.selectBox {
+    width: 200px;
+}
+
+.button {
+  background-color: ForestGreen;  
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  position: relative;
+  top: 5px;
+}
+
+.button:focus,
+.button:hover {
+  background-color: DarkGreen;
+}
